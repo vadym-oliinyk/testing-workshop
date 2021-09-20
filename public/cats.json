@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Cat white",
+    "price": 100.95,
+    "image": "https://i.natgeofe.com/n/9135ca87-0115-4a22-8caf-d1bdef97a814/75552_square.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Cat orange",
+    "price": 200.95,
+    "image": "https://static.scientificamerican.com/sciam/cache/file/32665E6F-8D90-4567-9769D59E11DB7F26_source.jpg?w=590&h=800&7E4B4CAD-CAE1-4726-93D6A160C2B068B2"
+  },
+  {
+    "id": 3,
+    "title": "Car brown",
+    "price": 155.95,
+    "image": "https://static.scientificamerican.com/sciam/cache/file/92E141F8-36E4-4331-BB2EE42AC8674DD3_source.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Cat gray",
+    "price": 170.05,
+    "image": "https://purewows3.imgix.net/images/articles/2021_05/best-cat-breeds-for-apartments_CAT.png?auto=format,compress&cs=strip"
+  }
+]
