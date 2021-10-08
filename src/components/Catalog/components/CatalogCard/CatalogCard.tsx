@@ -19,15 +19,26 @@ export default function ProductCard({
   onRemoveFromCart,
 }: ProductCardProps): JSX.Element {
   return (
-    <Box sx={{ mt: 4 }}>
+    <Box sx={{ mt: 4 }} data-testid="catalog-card">
       <Card
         sx={{
           ...card,
         }}
       >
-        <CardMedia component="img" height="200" image={image} alt={title} />
+        <CardMedia
+          component="img"
+          height="200"
+          image={image}
+          alt={title}
+          data-testid="catalog-card-image"
+        />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography
+            gutterBottom
+            variant="h5"
+            component="div"
+            data-testid="catalog-card-title"
+          >
             {title}
           </Typography>
         </CardContent>
@@ -39,16 +50,27 @@ export default function ProductCard({
             color="primary"
             component="div"
             sx={{ fontWeight: 700 }}
+            data-testid="catalog-card-price"
           >
             {price} $
           </Typography>
 
           {!isInCart ? (
-            <Button size="small" variant="contained" onClick={onAddToCart}>
+            <Button
+              size="small"
+              variant="contained"
+              data-testid="catalog-card-add"
+              onClick={onAddToCart}
+            >
               Add to cart
             </Button>
           ) : (
-            <Button size="small" variant="outlined" onClick={onRemoveFromCart}>
+            <Button
+              size="small"
+              variant="outlined"
+              data-testid="catalog-card-remove"
+              onClick={onRemoveFromCart}
+            >
               Remove from cart
             </Button>
           )}
