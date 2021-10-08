@@ -29,11 +29,16 @@ export default function CartCard({
         component="img"
         sx={{ width: 145, height: 135 }}
         image={image}
+        data-testid="cart-card-image"
       />
 
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
         <CardContent sx={{ flex: '1 0 auto', pb: 0 }}>
-          <Typography variant="h5" component="div">
+          <Typography
+            variant="h5"
+            component="div"
+            data-testid="cart-card-title"
+          >
             {title}
           </Typography>
           <Typography
@@ -41,19 +46,25 @@ export default function CartCard({
             color="primary"
             component="div"
             sx={{ fontWeight: 700 }}
+            data-testid="cart-card-price"
           >
             {price} $
           </Typography>
         </CardContent>
 
         <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 }}>
-          <IconButton aria-label="less" onClick={onLess}>
+          <IconButton data-testid="cart-card-less" onClick={onLess}>
             <RemoveIcon />
           </IconButton>
-          <Typography variant="h5" color="text.secondary" component="div">
+          <Typography
+            variant="h5"
+            color="text.secondary"
+            component="div"
+            data-testid="cart-card-amount"
+          >
             {inCartAmount}
           </Typography>
-          <IconButton aria-label="more" onClick={onMore}>
+          <IconButton data-testid="cart-card-more" onClick={onMore}>
             <AddIcon />
           </IconButton>
         </Box>

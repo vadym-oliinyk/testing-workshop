@@ -31,7 +31,12 @@ export default function CartFooter({
           >
             Total:
           </Typography>
-          <Typography variant="h6" color="primary" component="span">
+          <Typography
+            variant="h6"
+            color="primary"
+            component="span"
+            data-testid="total-price"
+          >
             {totalPrice} $
           </Typography>
         </Box>
