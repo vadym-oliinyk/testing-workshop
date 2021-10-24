@@ -12,7 +12,7 @@ export default function EmptyCatalog(): JSX.Element {
         height: 'calc(100vh - 75px)',
       }}
     >
-      <CircularProgress />
+      <CircularProgress data-testid="catalog-loader" />
     </Box>
   );
 }
