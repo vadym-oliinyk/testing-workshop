@@ -12,18 +12,19 @@
 
 // Correct
 
-// import axios from 'axios';
+import axios from 'axios';
+import getProducts from './getProducts';
 
-// jest.mock('axios', () => ({
-//   get: jest.fn(() => ({
-//     data: null,
-//   })),
-// }));
+jest.mock('axios', () => ({
+  get: jest.fn(() => ({
+    data: null,
+  })),
+}));
 
-// describe('getProducts()', () => {
-//   it('should send GET request to /cats.json', async () => {
-//     await getProducts();
+describe('getProducts()', () => {
+  it('should send GET request to /cats.json', async () => {
+    await getProducts();
 
-//     expect(axios.get).toBeCalledWith('/cats.json');
-//   });
-// });
+    expect(axios.get).toBeCalledWith('/cats.json');
+  });
+});

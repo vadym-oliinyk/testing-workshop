@@ -35,6 +35,14 @@ it('should match snapshot', () => {
   expect(container).toMatchSnapshot();
 });
 
+it('should match snapshot for empty page', () => {
+  const { container } = render(
+    <Cart products={[]} onAmountChange={() => {}} />,
+  );
+
+  expect(container).toMatchSnapshot();
+});
+
 it('should call onAmountChange with right id and new amount', () => {
   const onAmountChangeCallback = jest.fn();
   render(

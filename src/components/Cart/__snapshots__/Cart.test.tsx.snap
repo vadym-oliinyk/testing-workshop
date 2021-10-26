@@ -1,0 +1,306 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-12n0uxm-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-1uzrzkv-MuiGrid-root"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-imy9bx-MuiPaper-root-MuiCard-root"
+      >
+        <img
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-m1dg97-MuiCardMedia-root"
+          data-testid="cart-card-image"
+          src="https://test.jpg"
+        />
+        <div
+          class="MuiBox-root css-j7qwjs"
+        >
+          <div
+            class="MuiCardContent-root css-hrc8z3-MuiCardContent-root"
+          >
+            <div
+              class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+              data-testid="cart-card-title"
+            >
+              Some test product
+            </div>
+            <div
+              class="MuiTypography-root MuiTypography-subtitle1 css-1786zc4-MuiTypography-root"
+              data-testid="cart-card-price"
+            >
+              300
+               $
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-1ndgitk"
+          >
+            <button
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+              data-testid="cart-card-less"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="RemoveIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 13H5v-2h14v2z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiTypography-root MuiTypography-h5 css-41an0y-MuiTypography-root"
+              data-testid="cart-card-amount"
+            >
+              1
+            </div>
+            <button
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+              data-testid="cart-card-more"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="AddIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-1uzrzkv-MuiGrid-root"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-imy9bx-MuiPaper-root-MuiCard-root"
+      >
+        <img
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-m1dg97-MuiCardMedia-root"
+          data-testid="cart-card-image"
+          src="https://test.jpg"
+        />
+        <div
+          class="MuiBox-root css-j7qwjs"
+        >
+          <div
+            class="MuiCardContent-root css-hrc8z3-MuiCardContent-root"
+          >
+            <div
+              class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+              data-testid="cart-card-title"
+            >
+              Some test product
+            </div>
+            <div
+              class="MuiTypography-root MuiTypography-subtitle1 css-1786zc4-MuiTypography-root"
+              data-testid="cart-card-price"
+            >
+              200
+               $
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-1ndgitk"
+          >
+            <button
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+              data-testid="cart-card-less"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="RemoveIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 13H5v-2h14v2z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiTypography-root MuiTypography-h5 css-41an0y-MuiTypography-root"
+              data-testid="cart-card-amount"
+            >
+              2
+            </div>
+            <button
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+              data-testid="cart-card-more"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="AddIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-1uzrzkv-MuiGrid-root"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-imy9bx-MuiPaper-root-MuiCard-root"
+      >
+        <img
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-m1dg97-MuiCardMedia-root"
+          data-testid="cart-card-image"
+          src="https://test.jpg"
+        />
+        <div
+          class="MuiBox-root css-j7qwjs"
+        >
+          <div
+            class="MuiCardContent-root css-hrc8z3-MuiCardContent-root"
+          >
+            <div
+              class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+              data-testid="cart-card-title"
+            >
+              Some test product
+            </div>
+            <div
+              class="MuiTypography-root MuiTypography-subtitle1 css-1786zc4-MuiTypography-root"
+              data-testid="cart-card-price"
+            >
+              300
+               $
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-1ndgitk"
+          >
+            <button
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+              data-testid="cart-card-less"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="RemoveIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 13H5v-2h14v2z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiTypography-root MuiTypography-h5 css-41an0y-MuiTypography-root"
+              data-testid="cart-card-amount"
+            >
+              1
+            </div>
+            <button
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+              data-testid="cart-card-more"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="AddIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 css-1nfw97f-MuiGrid-root"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-e631gt-MuiPaper-root-MuiCard-root"
+      >
+        <div
+          class="MuiBox-root css-0"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-h6 css-gi7hmv-MuiTypography-root"
+          >
+            Total:
+          </span>
+          <span
+            class="MuiTypography-root MuiTypography-h6 css-oblp1g-MuiTypography-root"
+            data-testid="total-price"
+          >
+            1000
+             $
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should match snapshot for empty page 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-e631gt-MuiPaper-root-MuiCard-root"
+  >
+    <span
+      class="MuiTypography-root MuiTypography-h6 css-gi7hmv-MuiTypography-root"
+    >
+      No products in cart
+    </span>
+  </div>
+</div>
+`;

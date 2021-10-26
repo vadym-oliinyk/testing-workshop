@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match snapshot 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthMd css-xdmu94-MuiContainer-root"
+  >
+    <div
+      class="MuiBox-root css-1xd2cfb"
+    >
+      <a
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-djcg5u-MuiButtonBase-root-MuiIconButton-root"
+        href="/cart"
+        tabindex="0"
+      >
+        <span
+          class="MuiBadge-root css-1c32n2y-MuiBadge-root"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ShoppingCartIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+            />
+          </svg>
+          <span
+            class="MuiBadge-colorPrimary MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginTopRightRectangular MuiBadge-invisible css-1pi4uwz-MuiBadge-badge"
+          >
+            0
+          </span>
+        </span>
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthSm css-cuefkz-MuiContainer-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-ayy8wd-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-h5fkc8"
+          data-testid="catalog-card"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-5h6r5c-MuiPaper-root-MuiCard-root"
+          >
+            <img
+              alt="Some test product"
+              class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+              data-testid="catalog-card-image"
+              height="200"
+              src="https://test.jpg"
+            />
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+                data-testid="catalog-card-title"
+              >
+                Some test product
+              </div>
+            </div>
+            <div
+              class="MuiCardActions-root MuiCardActions-spacing css-7x49g3-MuiCardActions-root"
+            >
+              <div
+                class="MuiTypography-root MuiTypography-subtitle1 css-1786zc4-MuiTypography-root"
+                data-testid="catalog-card-price"
+              >
+                300
+                 $
+              </div>
+              <button
+                class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButtonBase-root css-11qr2p8-MuiButtonBase-root-MuiButton-root"
+                data-testid="catalog-card-add"
+                tabindex="0"
+                type="button"
+              >
+                Add to cart
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

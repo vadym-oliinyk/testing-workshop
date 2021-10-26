@@ -40,6 +40,18 @@ it('should render correctly', () => {
   expect(cards.length).toBe(MOCKED_PRODUCTS.length);
 });
 
+it('should match snapshot for empty page', () => {
+  const { container } = render(
+    <Catalog
+      products={[]}
+      onAddToCart={() => {}}
+      onRemoveFromCart={() => {}}
+    />,
+  );
+
+  expect(container).toMatchSnapshot();
+});
+
 it('should call onAddToCart and onRemoveFromCart with product id', () => {
   const addCallback = jest.fn();
   const removeCallback = jest.fn();
