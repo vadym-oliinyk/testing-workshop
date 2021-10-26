@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Container from '@material-ui/core/Container';
 import { Switch, Route } from 'react-router-dom';
 
-import getProducts from './api/products';
+import getProducts from './api/getProducts';
 import {
   formatProducts,
   getProductsInCart,
